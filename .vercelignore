@@ -1,0 +1,6 @@
+.tools/
+.git/
+.agents/
+.codex/
+__pycache__/
+README.md
