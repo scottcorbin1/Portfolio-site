@@ -71,14 +71,47 @@
   <section class="about-section" id="about"><div class="wrap about-grid"><div><p class="eyebrow">02 / A LITTLE ABOUT ME</p><h2>A technical mindset.<br><em>A practical approach.</em></h2><p class="about-text">My background brings together information science, full stack development, and hands-on IT support. From building a sustainability dashboard with a team to troubleshooting technical issues, I enjoy turning complex problems into clear, useful solutions.</p><p class="location">↗ Based in Palatka, Florida</p></div><div class="toolbox"><h3>The tools I work with</h3><div class="skill-group"><h4>Languages</h4><p>Python · Java · JavaScript · SQL</p></div><div class="skill-group"><h4>Web & data</h4><p>HTML · CSS · React · Next.js · Node.js · Express · MongoDB · PostgreSQL</p></div><div class="skill-group"><h4>Machine learning & visualization</h4><p>TensorFlow &middot; PyTorch · Pygame · Matplotlib</p></div></div></div></section>
   <section class="section wrap career-section" id="experience" aria-labelledby="experience-title">
     <div class="career-heading"><p class="eyebrow">03 / PUTTING TECHNOLOGY TO WORK</p><h2 id="experience-title">Work experience.</h2><p class="muted">Practical solutions. Everyday impact.</p></div>
-    <div class="timeline career-tiles"><article class="career-tile"><div class="entry-meta"><span>PROFESSIONAL EXPERIENCE</span><span>Current role</span></div><h3>Tier 1 IT</h3><h4>Beck Automotive Group</h4><p>Provide remote and on-site technical support to keep departments running smoothly. Identify and escalate complex issues to Tier 2 and higher-level support for timely resolution.</p>
-<div class="experience-highlight" aria-labelledby="phone-automation-title">
-  <p class="eyebrow">AUTOMATION IN PRACTICE</p>
-  <h4 class="highlight-title" id="phone-automation-title">Company-wide phone reprovisioning</h4>
-  <p>Developed a Playwright automation script that reads phone extensions and associated configuration details from an Excel spreadsheet, then automatically reprovisions phones across the company for a new phone system rollout. The automation helps minimize phone system downtime during the transition, keeping company communications and daily operations running smoothly.</p>
-  <div class="tags"><span>Playwright</span><span>Excel</span><span>Browser automation</span><span>Phone system migration</span></div>
-</div></article>
-<article class="career-tile"><div class="entry-meta"><span>SENIOR CAPSTONE</span><span>Aug 2023 — May 2024</span></div><h3>Full Stack Developer</h3><h4>North Florida Green Chamber</h4><p>Collaborated with a team to develop a sustainability dashboard for the organization as part of a senior capstone project.</p></article></div>
+    <div class="timeline career-tiles work-tiles">
+      <article class="career-tile">
+        <div class="entry-meta"><span>PROFESSIONAL EXPERIENCE</span><span>Current role</span></div>
+        <h3>Tier 1 IT</h3><h4>Beck Automotive Group</h4>
+        <p>Provide remote and on-site technical support, resolve everyday issues, and escalate complex problems to keep company operations running smoothly.</p>
+        <div class="experience-highlight"><p class="eyebrow">AUTOMATION IN PRACTICE</p><h4 class="highlight-title">Company-wide phone reprovisioning</h4><p>Built a Playwright script that reads Excel extension data and automates phone reprovisioning, helping minimize downtime during a new phone system rollout.</p></div>
+        <div class="tags"><span>Technical support</span><span>Playwright</span><span>Excel</span></div>
+        <button class="read-more" type="button" data-dialog="it-details" aria-haspopup="dialog" aria-controls="it-details" aria-label="Read more about Tier 1 IT at Beck Automotive Group">Read more <span aria-hidden="true">&#8599;</span></button>
+      </article>
+      <article class="career-tile">
+        <div class="entry-meta"><span>SENIOR CAPSTONE</span><span>Aug 2023 &mdash; May 2024</span></div>
+        <h3>Full Stack Developer</h3><h4>North Florida Green Chamber</h4>
+        <p>Collaborated with a team to build a sustainability dashboard for a nonprofit, helping businesses track environmental initiatives and compare their impact across locations.</p>
+        <div class="experience-highlight"><p class="eyebrow">FROM INTERFACE TO DATABASE</p><h4 class="highlight-title">Sustainability tracking for businesses</h4><p>Developed business account and location-based tracking features, built relational storage with PostgreSQL, and collaborated using GitHub.</p></div>
+        <div class="tags"><span>Next.js</span><span>Node.js</span><span>PostgreSQL</span><span>GitHub</span></div>
+        <button class="read-more" type="button" data-dialog="developer-details" aria-haspopup="dialog" aria-controls="developer-details" aria-label="Read more about Full Stack Developer at North Florida Green Chamber">Read more <span aria-hidden="true">&#8599;</span></button>
+      </article>
+    </div>
+    <dialog class="experience-dialog" id="it-details" aria-labelledby="it-details-title">
+      <form method="dialog" class="dialog-close-form"><button class="dialog-close" aria-label="Close IT experience details" autofocus>&times;</button></form>
+      <p class="eyebrow">BECK AUTOMOTIVE GROUP / CURRENT ROLE</p>
+      <h3 id="it-details-title">Tier 1 IT</h3>
+      <p>Provide timely technical support remotely and on-site, helping minimize downtime and maintain smooth operations across departments. Identify and escalate complex technical issues to Tier 2 or higher-level support for timely resolution and continuity of service.</p>
+      <h4>Company-wide phone reprovisioning</h4>
+      <p>Developed a Playwright automation script that reads phone extensions and associated configuration details from an Excel spreadsheet, then automatically reprovisions phones across the company for a new phone system rollout.</p>
+      <p>The automation helps minimize phone system downtime during the transition, keeping company communications and daily operations running smoothly.</p>
+      <div class="tags"><span>Technical support</span><span>Playwright</span><span>Excel</span><span>Browser automation</span><span>Phone system migration</span></div>
+    </dialog>
+    <dialog class="experience-dialog" id="developer-details" aria-labelledby="developer-details-title">
+      <form method="dialog" class="dialog-close-form"><button class="dialog-close" aria-label="Close full stack developer details" autofocus>&times;</button></form>
+      <p class="eyebrow">NORTH FLORIDA GREEN CHAMBER / AUG 2023 &mdash; MAY 2024</p>
+      <h3 id="developer-details-title">Full Stack Developer</h3>
+      <p>Collaborated with a team to develop a sustainability dashboard for the North Florida Green Chamber as part of a senior capstone project, with plans for continued support.</p>
+      <h4>Business accounts and sustainability metrics</h4>
+      <p>Developed a web application enabling businesses to create accounts and monitor sustainability metrics to evaluate the impact of their eco-friendly initiatives.</p>
+      <h4>Tracking across locations</h4>
+      <p>The application supports tracking sustainability data by location, allowing companies with multiple sites to manage and compare data for each.</p>
+      <h4>Relational data and team collaboration</h4>
+      <p>Built a PostgreSQL relational database to store sustainability data. Used GitHub for version control and team access while collaborating on the application.</p>
+      <div class="tags"><span>JavaScript</span><span>Next.js</span><span>Node.js</span><span>PostgreSQL</span><span>GitHub</span></div>
+    </dialog>
   </section>
   <section class="section wrap career-section education-section" id="education" aria-labelledby="education-title">
     <div class="career-heading"><p class="eyebrow">04 / THE FOUNDATION</p><h2 id="education-title">Education.</h2><p class="muted">A foundation in information science and technology.</p></div>
